@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "role based access control system backend",
+  "main": "server.js",
+ "scripts": {
+  "start": "nodemon server.js",
+  "lint": "eslint .",
+  "type": "module"
+},
+  "keywords": [
+    "server"
+  ],
+  "author": "Pravin Jedhe",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.26.0"
+  }
+}
